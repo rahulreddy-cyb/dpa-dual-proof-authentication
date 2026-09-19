@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:text="DPA Authenticator" android:textSize="26sp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/registerButton" android:text="Show public key" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/challengeInput" android:hint="Server challenge" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/approveButton" android:text="Approve & Sign" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/result" android:textIsSelectable="true" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/></LinearLayout>
